@@ -1,0 +1,6 @@
+s1="AAA"
+s2="123"
+print("first", s1)
+print("second", s2)
+output = "".join(x + y for x, y in zip(s1, s2)) 
+print(output)
